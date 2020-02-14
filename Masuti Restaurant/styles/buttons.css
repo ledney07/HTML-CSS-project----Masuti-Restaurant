@@ -1,0 +1,31 @@
+.btn {
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 3px solid #cea135;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #cea135;
+    outline: none;
+    border-radius: 4px;
+    border: 3px solid #cea135;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
